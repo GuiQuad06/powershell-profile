@@ -19,7 +19,7 @@ Set-PSFzfOption -PSReadlineChordProvider 'Ctrl+f' -PSReadlineChordReverseHistory
 Set-Alias ll ls
 Set-Alias .. 'cd..'
 Set-Alias grep findstr
-Set-Alias tig 'C:\Program Files\Git\usr\bin\tig.exe'
+Set-Alias tig 'C:\dev\Git\usr\bin\tig.exe'
 Set-Alias np 'C:\Program Files\Notepad++\notepad++.exe'
 
 # Utilities
