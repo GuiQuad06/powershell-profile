@@ -1,6 +1,8 @@
 # Prompt
-# This is very slow ! Wondering if the Trend Micro is not scanning my C:\dev :(
-# oh-my-posh init pwsh --config "$env:POSH_THEMES_PATH\thecyberden.omp.json" | Invoke-Expression
+# Import-Module posh-git
+# Import-Module oh-my-posh
+# Set-PoshPrompt Paradox
+oh-my-posh init pwsh --config ".config\posh\thecyberden.omp.json" | Invoke-Expression
 
 # Icons
 Import-Module -Name Terminal-Icons
@@ -18,8 +20,10 @@ Set-PSFzfOption -PSReadlineChordProvider 'Ctrl+f' -PSReadlineChordReverseHistory
 # Alias
 Set-Alias ll ls
 Set-Alias .. 'cd..'
+Set-Alias d pwd
 Set-Alias grep findstr
 Set-Alias tig 'C:\Program Files\Git\usr\bin\tig.exe'
+Set-Alias less 'C:\Program Files\Git\usr\bin\less.exe'
 Set-Alias np 'C:\Program Files\Notepad++\notepad++.exe'
 
 # Utilities
