@@ -155,6 +155,7 @@ if (Get-Module -ListAvailable -Name PSFzf) {
 
 # Alias
 Set-Alias ll ls
+Set-Alias d pwd
 Set-Alias .. 'cd..'
 Set-Alias grep findstr
 Set-Alias tig 'C:\dev\Git\usr\bin\tig.exe'
